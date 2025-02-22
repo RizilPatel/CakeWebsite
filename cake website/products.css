@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headline {
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f2bae9;
+    color: #590b4d;
+}
+
+.innerbox {
+    padding: 30px;
+    display: flex;
+}
+
+.filter {
+    height: 280px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5%;
+    margin-top: 30px;
+}
+
+.filter h3 {
+    margin: 15px;
+}
+
+.filter p {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.cakesproduct {
+    flex: 1;
+    padding: 0 0 0 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightcontainer {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.boxnew {
+    padding: 5px;
+    height: 320px;
+    width: 25%;
+    background-color: #f2bae9;
+    margin-top: 30px;
+    border: 3px dashed rgb(234, 225, 233);
+    border-radius: 5px;
+}
+
+.box-imagenew {
+    padding: 2px;
+    height: 250px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
